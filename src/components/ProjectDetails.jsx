@@ -108,9 +108,9 @@ export default function ProjectDetails() {
         </div>
 
         {/* --- FUTURE SCOPE --- */}
-        <div className="bg-linear-to-r from-eco-dark to-eco-green/20 p-8 rounded-3xl border border-white/10">
-          <div className="flex items-start gap-6">
-            <div className="p-4 bg-eco-green rounded-full text-black">
+        <div className="bg-linear-to-r from-eco-dark to-eco-green/20 p-6 rounded-3xl border border-white/10">
+          <div className="flex-col md:flex-row items-center justify-center mt-0 text-gray-300">
+            <div className="p-4 bg-eco-green rounded-full text-white mb-4 md:mb-0">
               <TrendingUp size={32} />
             </div>
             <div>
